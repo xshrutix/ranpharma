@@ -5731,7 +5731,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 .heading.heading-9 .heading-title {
   font-size: 40px;
   line-height: 55px;
-  margin-bottom: 73px;
+  margin-bottom: 40px;
 }
 @media screen and (min-width:992px) {
   .heading.heading-9 .heading-title {
@@ -12646,7 +12646,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 }
 
 .features .feature-panel .feature-content p {
-  text-align: center;
+ 
   font-family: var(--global--font-body);
   font-size: 14px;
   line-height: 24px;
@@ -17359,7 +17359,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -17484,4 +17484,37 @@ ul.dropdown-menu > li.has-dropdown > a:before {
     margin-bottom: 15px;
   }
 }
+.medicine-vector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.medicine-vector img {
+  width: 100%;
+  max-width: 400px; /* Adjust based on your design */
+  height: auto;
+  border-radius: 10px; /* Optional: adds a smooth rounded effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow effect */
+}
+
+
+
+@media (max-width: 768px) {
+  .medicine-vector {
+    margin-top: 10px;
+  }
+
+  .medicine-vector img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .medicine-vector img {
+    max-width: 250px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
