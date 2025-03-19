@@ -19868,6 +19868,9 @@ fieldset:disabled .btn {
 .flaticon-010-eye-dropper:before {
     content: "\f109"
 }
+.flaticon-heart:before {
+    content: "\f004"; /* Unicode for Font Awesome heart */
+}
 
 .flaticon-011-microscope:before {
     content: "\f10a"

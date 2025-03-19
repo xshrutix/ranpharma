@@ -102,7 +102,7 @@
           </div>
         </div>
         <!-- End .top-bar-->
-        <nav class="navbar navbar-expand-lg navbar-sticky" id="primary-menu"><a class="navbar-brand" href="index.html"><img class="logo logo-light" src="assets/images/logo/logo.png" alt="Lockey Logo"><img class="logo logo-dark" src="assets/images/logo/logo.png" alt="Lockey Logo"><img class="logo logo-mobile logo-mobile-dark" src="assets/images/logo/logo.png" alt="Lockey Logo"><img class="logo logo-mobile logo-mobile-white" src="assets/images/logo/logo.png" alt="Lockey Logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-sticky" id="primary-menu"><a class="navbar-brand" href="index.html"><img class="logo logo-light" src="assets/images/logo/logo.png" alt="Lockey Logo"><img class="logo logo-dark" src="assets/images/logo/logo.png" alt="Lockey Logo"><img class="logo logo-mobile logo-mobile-dark" src="assets/images/logo/logo (5).png" alt="Lockey Logo"><img class="logo logo-mobile logo-mobile-white" src="assets/images/logo/logo (5).png" alt="Lockey Logo"></a>
           <div class="module-holder-phone">
            
             <!-- End .module-search-->
@@ -122,17 +122,8 @@
                         </ul>
             <div class="module-holder">
               <!--  Start Module Phone  -->
-              <div class="module module-phone">
-                <div class="module-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px">
-                    <path fill-rule="evenodd" fill="currentColor" d="M4.425,11.170 C7.102,14.474 13.625,17.642 15.199,16.930 C16.366,16.417 17.099,15.242 17.043,13.970 C16.976,13.256 13.400,11.078 12.500,10.666 C11.600,10.252 10.566,11.581 10.071,12.156 C9.554,12.705 7.574,11.030 6.719,10.183 C6.719,10.183 4.470,7.612 4.987,7.061 C5.505,6.510 6.787,5.409 6.337,4.511 C5.886,3.616 3.615,0.039 2.895,-0.010 C1.630,-0.005 0.504,0.793 0.083,1.987 C-0.546,3.616 2.468,9.839 5.820,12.430 "></path>
-                  </svg>
-                </div>
-                <div class="module-body"><a href="tel:+91 95506 57016">+91 95506 57016</a></div>
-              </div>
-              <!--  End .module-phone-->
-              <!-- Start .module-contact-->
               
+              <div class="module-contact module-contact-2"><span></span><a class="btn btn--secondary btn-icon-right " href="page-make-appointment.html">Make appointment<i class="icon-arrow-right"></i></a></div>
               <!-- End .module-contact-->
              
               <!-- End .module-search-->
@@ -207,8 +198,7 @@
                               <div class="select-holder">
                                 <select class="form-control" id="subject-select" name="contact-subject" required>
                                   <option value="default">Subject</option>
-                                  <option value="health">How to eat healthy?</option>
-                                  <option value="mask">Wearing a mask importance</option>
+                                  
                                   <option value="career">Career</option>
                                   <option value="client">Client</option>
                                 </select>
@@ -217,11 +207,7 @@
                             <div class="col-12 col-md-6 col-lg-6">
                               <input class="form-control" type="text" name="contact-phone" placeholder="Phone" required />
                             </div>
-                            <!-- Resume Upload Field (Initially Hidden) -->
-                            <div class="col-12" id="resume-upload" style="display: none;">
-                              <label for="resume">Upload Resume:</label>
-                              <input class="form-control" type="file" name="resume" id="resume" accept=".pdf,.doc,.docx" />
-                            </div>
+                           
                             <div class="col-12">
                               <textarea class="form-control" name="contact-message" cols="30" rows="2" placeholder="Message" required></textarea>
                             </div>
@@ -243,10 +229,10 @@
                   <div class="bg-section"><img src="assets/images/contact/1.jpg" alt="image"/></div>
                   <div class="card-content">
                     <div class="content-top">
-                      <h3>Committed Bui Positive, Safe, Patient Culture.</h3>
+                      <h3>Good Health Through Quality Medicines.</h3>
                     </div>
                     <div class="content-bottom">
-                      <p>For over 20 years, hospital has touched lives of millions of people, provide care and treatment for and aged care.</p><a class="btn btn--white" href="page-faqs.html"><span>Help &amp; FAQs</span></a>
+                      <p>A cutting-edge pharmaceutical facility or a team of scientists in a state-of-the-art research lab, symbolizing innovation and precision in healthcare. </p>
                     </div>
                   </div>
                 </div>
@@ -357,8 +343,7 @@
                 <div class="footer-copyright">
                     <div class="copyright-holder">
                         <div class="copyright">
-                            <span>&copy; 2021 Medsky by <a href="https://1.envato.market/kP9BV">Zytheme.com</a>. all rights
-                                reserved.</span>
+                            <span> <a href="https://1.envato.market/kP9BV"></a></span>
                         </div>
                     </div>
                 </div>
@@ -378,19 +363,6 @@
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendor.js"></script>
     <script src="assets/js/functions.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-          const subjectSelect = document.getElementById("subject-select");
-          const resumeUpload = document.getElementById("resume-upload");
-      
-          subjectSelect.addEventListener("change", function() {
-            if (this.value === "career") {
-              resumeUpload.style.display = "block"; // Show the resume upload field
-            } else {
-              resumeUpload.style.display = "none"; // Hide the resume upload field
-            }
-          });
-        });
-      </script>
+   
   </body>
 </html>

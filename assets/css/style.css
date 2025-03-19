@@ -12639,7 +12639,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 
 .features .feature-panel .feature-content h4 {
   font-family: var(--global--font-heading);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   line-height: 28px;
   text-transform: capitalize;
@@ -16272,10 +16272,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
   height: 100%;
   background-color: var(--global--color-white);
 }
-.services.services-2 .divider .bg {
-  background-color: var(--global--color-white);
-  height: 80px;
-}
+
 .services.services-3 {
   padding-top: 0;
   padding-bottom: 100px;
