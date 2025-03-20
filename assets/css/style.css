@@ -17520,3 +17520,9 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 }
 
 /*# sourceMappingURL=style.css.map */
+.resume-upload {
+  padding: 10px 12px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
