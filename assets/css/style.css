@@ -2795,12 +2795,12 @@ textarea.form-control {
 }
 .header .navbar-brand .logo {
   max-width: 100%;
-  width: 200px;
-  height: 40px;
+  width: 210px;
+  height: 55px;
 }
 .header .navbar-brand .logo.logo-mobile {
-  width: auto;
-  height: auto;
+  width: 150px;
+  height: 40px;
 }
 .header.header-light {
   background-color: var(--global--color-white);
