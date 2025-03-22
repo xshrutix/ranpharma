@@ -20688,7 +20688,7 @@ screen and (max-width:800px) and (orientation:landscape) {
 
 .owl-carousel .owl-item img {
     display: block;
-    width: 100%
+    width: 70%
 }
 
 .owl-carousel .owl-dots.disabled,
