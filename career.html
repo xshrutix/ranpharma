@@ -17,6 +17,7 @@
     -->
     <link href="assets/css/vendor.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
   <body>
     <div class="preloader">
@@ -63,20 +64,24 @@
           <div class="block-left">
             <div class="contact-info" style="display: flex; align-items: center; gap: 8px;">
               <div class="contact-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
-                  <path fill-rule="evenodd" fill="rgb(40, 182, 246)" d="M1.6,2.4 C1.1,2.4 0.8,2.7 0.8,3.2 L0.8,12.8 C0.8,13.3 1.1,13.6 1.6,13.6 L14.4,13.6 C14.9,13.6 15.2,13.3 15.2,12.8 L15.2,3.2 C15.2,2.7 14.9,2.4 14.4,2.4 L1.6,2.4 Z M8,8.2 L1.6,3.6 L14.4,3.6 L8,8.2 Z"></path>
-                </svg>
+                <i class="fas fa-envelope" style="color: rgb(40, 182, 246); font-size: 16px;"></i>
               </div>
-              <div class="contact-body" style="padding-top: 4px;">
-                <a href="mailto:email@example.com" style="text-decoration: none;">info@ranhealthpharma.com</a>
+              <div class="contact-body" >
+                <a href="mailto:info@ranhealthpharma.com" style="text-decoration: none;">info@ranhealthpharma.com</a>
               </div>
             </div>
           </div>
           <div class="block-right">
             <div class="module module-social">
-              <a class="share-facebook" href="javascript:void(0)"><i class="icon-facebook"></i></a>
-              <a class="share-twitter" href="javascript:void(0)"><i class="icon-twitter"></i></a>
-              <a class="share-youtube" href="javascript:void(0)"><i class="icon-youtube"></i></a>
+              <a class="share-facebook" href="javascript:void(0)">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="share-twitter" href="javascript:void(0)">
+                <i class="fab fa-x-twitter"></i> 
+              </a>
+              <a class="share-youtube" href="javascript:void(0)">
+                <i class="fab fa-youtube"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -85,8 +90,11 @@
         
         
         
+        
+        
+        
         <!-- End .top-bar-->
-        <nav class="navbar navbar-expand-lg navbar-sticky" id="primary-menu"><a class="navbar-brand" href="index.html"><img class="logo logo-light" src="assets/images/logo/ranlogo.svg" alt="Lockey Logo"><img class="logo logo-dark" src="assets/images/logo/ranlogo.svg" alt="Lockey Logo"><img class="logo logo-mobile logo-mobile-dark" src="assets/images/logo/ranlogo.svg" alt="Lockey Logo"><img class="logo logo-mobile logo-mobile-white" src="assets/images/logo/ranlogo.svg" alt="Lockey Logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-sticky" id="primary-menu"><a class="navbar-brand" href="index.html"><img class="logo logo-light" src="assets/images/logo/ranhealthlogo.svg" alt="Lockey Logo"><img class="logo logo-dark" src="assets/images/logo/ranhealthlogo.svg" alt="Lockey Logo"><img class="logo logo-mobile logo-mobile-dark" src="assets/images/logo/ranhealthlogo.svg" alt="Lockey Logo"><img class="logo logo-mobile logo-mobile-white" src="assets/images/logo/ranhealthlogo.svg" alt="Lockey Logo"></a>
           <div class="module-holder-phone">
            
             <!-- End .module-search-->
@@ -148,15 +156,40 @@
       Google Maps Section
       ============================
       -->
-      <section class="map">
-        <iframe src="https://maps.google.com/maps?q=Pioneer%20Works&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near" width="600" height="450" style="border:0;"></iframe>
-        <div class="divider">
-          <div class="container"> 
-            <div class="bg"></div>
+      <section class="hero hero-1 bg-overlay bg-overlay-dark-hero bg-section" style="background-image: url(&quot;assets/images/hero/1.jpg&quot;);">
+        
+        <div class="container"> 
+          <div class="hero-content"> 
+            <div class="row"> 
+              <div class="col-12 col-lg-5">
+                <h2 class="hero-title">Careers</h2>
+                <p class="hero-desc">Ran Health Pharma is dedicated to addressing complex health challenges through specialized divisions, each focused on delivering targeted, high-quality pharmaceutical solutions.</p>
+                
+            </div>
           </div>
+          <!-- End .hero-content-->
+        </div>
+        <!-- End .container-->
+        <div class="breadcrumb-holder">
+          <div class="container"> 
+            <ol class="breadcrumb d-flex justify-content-center justify-content-lg-start breadcrumb-light">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="javascript:void(0)">Career</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Career</li>
+            </ol>
+            <!-- End .breadcrumb-->
+          </div>
+          <!-- End .container-->
+        </div>
+        <!-- End .breadcrumb-holder-->
+        <div class="divider">
+          <div class="bg"></div><a class="scroll-btn" href="#about-2">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="21px">
+              <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M11.627,15.787 L6.591,19.792 C6.223,20.084 5.700,20.084 5.333,19.792 L0.297,15.787 C0.152,15.670 0.061,15.522 -0.000,15.362 L-0.000,14.626 C0.036,14.540 0.076,14.452 0.139,14.374 C0.487,13.944 1.121,13.873 1.555,14.217 L5.000,16.959 L5.000,0.021 L7.006,0.021 L7.006,16.862 L7.049,16.859 L10.370,14.217 C10.804,13.873 11.438,13.944 11.785,14.374 C12.132,14.809 12.061,15.440 11.627,15.787 Z"></path>
+            </svg></a>
         </div>
         <!-- End .divider-->
-      </section>
+      </div></section>
       <!--
       ============================
       Contact Info Section
@@ -170,7 +203,7 @@
                 <div class="contact-card">
                   <div class="contact-body">
                     <h5 class="card-heading">How can we help?</h5>
-                    <p class="card-desc">Please feel welcome to contact our friendly reception staff with any general or medical enquiry. Our doctors will receive or return calls.</p>
+                    <p class="card-desc">Feel free to reach out to our team for any career-related inquiries. Submit your details, and our recruitment team will get back to you soon.</p>
                     <form class="contactForm" method="post" action="assets/php/contact.php" enctype="multipart/form-data">
                       <div class="row">
                         <div class="col-12 col-md-12 col-lg-6">
