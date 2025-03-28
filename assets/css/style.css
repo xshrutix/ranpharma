@@ -737,7 +737,6 @@ blockquote .author {
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
   width: 100%;
   height: 100%;
 }
