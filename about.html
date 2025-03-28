@@ -443,7 +443,9 @@
                   <div class="contact-body">
                     <h5 class="card-heading">Book An Appointment</h5>
                     <p class="card-desc">
-                      Please feel welcome to contact our friendly reception staff with any general or medical enquiry.
+                      Please feel welcome to contact our friendly reception staff with any general or medical enquiry. Our doctors will receive or return calls.
+
+
                     </p>
                     <form class="contactForm" method="post" action="assets/php/contact.php">
                       <div class="row">
@@ -460,11 +462,8 @@
                           <input class="form-control" type="text" id="contact-phone" name="contact-phone" placeholder="Your Phone" required>
                         </div>
                         <div class="col-12 col-md-6">
-                          <label class="form-label" for="select-department">Category (required)</label>
-                          <select class="form-control" id="select-department" name="select-department">
-                            <option value="Pathology Clinic">Career</option>
-                            <option value="Cardiology Clinic">Client</option>
-                          </select>
+                          <label class="form-label" for="contact-subject">Subject (required)</label>
+                          <input class="form-control" type="text" id="contact-subject" name="contact-subject" placeholder="Your Subject" required>
                         </div>
                         <div class="col-12">
                           <label class="form-label" for="contact-message">Message</label>
@@ -477,6 +476,7 @@
                         </div>
                       </div>
                     </form>
+                    
                   </div>
                 </div>
               </div>
@@ -488,7 +488,7 @@
                     will get back to you promptly.
                     </p>
 
-                   
+                  
                   <!-- End .contact-icons-->
                 </div>
                 <!-- End .heading-->
