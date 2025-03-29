@@ -4836,6 +4836,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 30px;
+  gap: 5px;
 }
 .module-social a {
   margin-right: 10px;
